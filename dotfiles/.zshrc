@@ -20,9 +20,16 @@ fi
 # Scripts
 
 alias mini='~/scripts/mini-moul.sh'
-alias compite='~/scripts/compile.sh'
+alias compile='~/scripts/compile.sh'
 alias vicheck='~/scripts/vicheck.sh'
 alias createdir='~/scripts/createdir.sh'
+
+# PATH
+
+export PATH="$HOME/.local/bin:$PATH"
+
+
+
 
 ######## END ######## 
 
