@@ -20,7 +20,9 @@ fi
 # Scripts
 
 alias mini='~/scripts/mini-moul.sh'
-alias compite='~/scripts/'
+alias compite='~/scripts/compile.sh'
+alias vicheck='~/scripts/vicheck.sh'
+alias createdir='~/scripts/createdir.sh'
 
 ######## END ######## 
 
