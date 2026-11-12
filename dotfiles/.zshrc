@@ -4,6 +4,7 @@ alias l='ls -vl --group-directories-first --color=auto'
 alias ll='ls -val --group-directories-first --color=auto'
 alias cl='clear'
 alias py='python3'
+alias gls='git archive --remote=origin HEAD | tar -t'
 
 lh(){
 	local target="${1:-$HOME}"
@@ -31,7 +32,7 @@ export PATH="$HOME/.local/bin:$PATH"
 
 
 
-######## END ######## 
+######## END ########
 
 # Set up the prompt
 
