@@ -2,7 +2,6 @@
 echo "Compiling..." &&
 clear &&
 cc -Wall -Wextra -Werror -DTEST -o output */*.c &&
-echo "Output:"
-./output &&
+printf "Output:" && ./output && echo &&
 rm output &&
 norminette
